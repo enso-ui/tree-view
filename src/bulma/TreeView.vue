@@ -5,7 +5,7 @@
                 v-model="query"
                 :placeholder="i18n('Search')">
             <span class="icon is-left">
-                <fa icon="search"/>
+                <fa :icon="faSearch"/>
             </span>
             <span class="icon is-right">
                 <a class="delete is-small"
@@ -24,11 +24,8 @@
 
 <script>
 import { FontAwesomeIcon as Fa } from '@fortawesome/vue-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import Items from './Items.vue';
-
-library.add(faSearch);
 
 export default {
     name: 'TreeView',
@@ -51,6 +48,7 @@ export default {
     emits: ['update:modelValue'],
 
     data: () => ({
+        faSearch,
         query: '',
     }),
 

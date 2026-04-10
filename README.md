@@ -1,12 +1,6 @@
 # Tree View
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/tree-view.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/tree-view.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/tree-view.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/tree-view.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/tree-view.svg) 
-
-A front-end tree view component
+A front-end tree view component.
 
 ## Usage
 
@@ -18,7 +12,7 @@ For live examples and demos, you may visit [laravel-enso.com](https://www.larave
 
 ### Installation, Configuration & Usage
 
-Be sure to check out the full documentation for this package available at [docs.laravel-enso.com](https://docs.laravel-enso.com/frontend/tree-view.html)
+Be sure to check out the full documentation for this package available at [docs.laravel-enso.com](https://docs.laravel-enso.com/frontend/tree-view.html).
 
 ## Contributions
 
@@ -28,4 +22,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[MIT](LICENSE)
